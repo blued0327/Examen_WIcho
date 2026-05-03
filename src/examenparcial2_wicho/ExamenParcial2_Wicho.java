@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package examenparcial2_wicho;
+import conection.CreateConnection;
+        
 
 /**
  *
@@ -15,6 +17,9 @@ public class ExamenParcial2_Wicho {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        CreateConnection conn = new CreateConnection();
+        conn.getConnection();
+        
     }
     
 }
